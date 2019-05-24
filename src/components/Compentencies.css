@@ -1,0 +1,110 @@
+
+
+header {
+  width: 100%;
+  /* 25C-3 */
+  position: fixed;
+  top: 0;
+  height: 80px;
+  /* 30D */
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+  /* 27G */
+  display: flex;
+  /* 27C */
+  justify-content: space-between;
+  /* 27D */
+  align-items: center;
+}
+
+.heading-title {
+  /* 23D-2 */
+  color: white;
+  width: 100%;
+}
+
+.navbar {
+  /* 25F */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin: 0 10px;
+}
+
+/* 22C-2 */
+.animation {
+  /* position: relative;
+  top: 100px; */
+  padding-top: 220px;
+  width: 0px;
+  height: 0px;
+  margin: 50px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid blue;
+  animation-name: animation-spin;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+/* 28C */
+@keyframes animation-spin {
+  from {
+    /* 28E */
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+.box-model {
+  /* 24D */
+  border: 1px solid black;
+  /* 23E */
+  background-color: yellow;
+  /* 23D-3 */
+  font-size: 14px;
+  /* 23D-1 */
+  font-weight: 700;
+  /* 24F */
+  width: 50%;
+  height: 28px;
+  /* 24C */
+  margin: 10px;
+  /* 24E */
+  padding: 5px;
+  /* 25D */
+  float: right;
+  /* 30C */
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+article {
+  /* 23F */
+  background-image: url("https://www.balisafarimarinepark.com/wp-content/uploads/2017/11/19437535_10154869044788931_4755399083724169206_n-671.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 22C-1 */
+#cat-fight {
+  position: relative;
+  left: 150px;
+  width: 50%;
+}
+
+/* 22C-4 */
+div>img {
+  border: 1px solid black;
+}
+
+/* 22C-3 */
+section li {
+  color: blue;
+}
+
+
