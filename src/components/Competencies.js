@@ -61,6 +61,8 @@ const Competencies = () => {
       <div id="cat-fight">
         {/* 54E-2 */}
         <img src="https://cdn10.bigcommerce.com/s-3tqgz/template/images/article/how_to_break_up_cat_fights.jpg" alt="cat fight" />
+        <img src="https://cdn10.bigcommerce.com/s-3tqgz/template/images/article/how_to_break_up_cat_fights.jpg" alt="cat fight" />
+        <img src="https://cdn10.bigcommerce.com/s-3tqgz/template/images/article/how_to_break_up_cat_fights.jpg" alt="cat fight" />
       </div>
 
 

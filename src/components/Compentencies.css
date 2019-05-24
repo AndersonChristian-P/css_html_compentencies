@@ -35,8 +35,6 @@ nav {
 
 /* 22C-2 */
 .animation {
-  /* position: relative;
-  top: 100px; */
   padding-top: 220px;
   width: 0px;
   height: 0px;
@@ -95,6 +93,7 @@ article {
   position: relative;
   left: 150px;
   width: 50%;
+  z-index: -1;
 }
 
 /* 22C-4 */
