@@ -14,8 +14,13 @@ const Competencies = () => {
           <nav role="navigation"><a target="_blank" rel="noopener noreferrer" href="https://www.google.com">There</a></nav>
           <nav role="navigation">Everywhere</nav>
         </div>
+
       </header>
 
+      <div className="box-container">
+        <div className="box-blue"></div>
+        <div className="box-orange"></div>
+      </div>
 
       <section>
         <div className="animation"></div>
@@ -66,10 +71,53 @@ const Competencies = () => {
       </div>
 
 
+      {/* --- Addt'l Comps --- */}
+
+      <div className="audio-video">
+        {/* 56C */}
+        <video controls width="250">
+          <source src="/videos/Flower - 4766.mp4" type="video/mp4" />
+        </video>
+
+        {/* 56D */}
+        <audio controls>
+          <source src="http://www.noiseaddicts.com/samples_1w72b820/2514.mp3" />
+        </audio>
+      </div>
+
+      <br />
+
+      <div className="transition-box" ></div>
+
+      <div className="flex-boxes">
+        <div className="box 1">1</div>
+        <div className="box 2">2</div>
+        <div className="box 3">3</div>
+        <div className="box 4">4</div>
+        <div className="box 5">5</div>
+      </div>
+
+      <br />
+
+      <div class="plus-container">
+        <p>First</p>
+        <div>This is a child of the 'First'</div>
+        <p>Second</p>
+        <p>Third</p>
+      </div>
+
+      <br />
+
+      <div className="font-awesome">
+        <h3>Font-Awesome</h3>
+        <i className="fas fa-air-freshener fa-3x"></i>
+      </div>
+
 
       {/* 54D-3 */}
       <footer>
-        <div>This is my footer</div>
+        <h3>This is my footer</h3>
+
       </footer>
 
     </div>

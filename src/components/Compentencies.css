@@ -35,10 +35,9 @@ nav {
 
 /* 22C-2 */
 .animation {
-  padding-top: 220px;
   width: 0px;
   height: 0px;
-  margin: 50px;
+  margin: 75px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 200px solid blue;
@@ -112,5 +111,104 @@ section li {
 
 footer {
   border: 1px solid red;
+  height: 150px;
+}
+
+
+/* --- additional comps --- */
+
+.box-container {
+  margin-top: 100px;
+}
+
+/* 25C-2 */
+.box-orange {
+  position: absolute;
+  background: orange;
+  width: 100px;
   height: 100px;
+  left: 50px;
+  top: 125px;
+}
+
+.box-blue {
+  background: blue;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+}
+
+/* ----- */
+.audio-video {
+  margin: 50px 0 50px 30px;
+}
+
+video {
+  width: 536px;
+  height: 360px;
+}
+
+audio {
+  margin-left: 50px;
+}
+
+/* ----- */
+
+.transition-box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin-left: 30px;
+  /* 28E */
+  transition: background-color 1.5s ease-out;
+}
+
+.transition-box:hover {
+  background-color: green;
+}
+
+/* ----- */
+
+.flex-boxes {
+  display: flex;
+  /* 27F */
+  flex-direction: column;
+  /* 27E */
+  flex-wrap: wrap;
+  justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+  border: 2px solid green;
+  width: 25%;
+  margin: 50px 0 50px 30px;
+  height: 205px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  font-weight: 700;
+}
+
+/* ----- */
+
+.plus-container {
+  border: 2px solid maroon;
+  width: 25%;
+  margin: 0 0 50px 30px;
+}
+
+/* 22C-5 */
+div + p {
+  color: green;
+  font-weight: 700;
+}
+
+/* ----- */
+
+.font-awesome {
+  border: 2px solid orange;
+  margin: 0 0 50px 30px;
+  width: 25%;
 }
